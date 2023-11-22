@@ -1,0 +1,21 @@
+name: integritychecker
+version: '${version}'
+main: me.alex_s168.integritycheckerserver.IntegrityChecker
+api-version: '1.20'
+author: alex_s168
+
+permissions:
+  integritychecker.*:
+    description: All IntegrityChecker permissions
+    children:
+      integritychecker.icheck: true
+  integritychecker.icheck:
+    description: Allows you to use the icheck command on a player
+    default: op
+
+commands:
+  icheck:
+    description: IntegrityChecker info
+    usage: /icheck [player] [query <class>|info]
+    permission: integritychecker.icheck
+    permission-message: You don't have permission to use this command
