@@ -1,0 +1,17 @@
+build/
+.gradle/
+.idea/
+
+# build tools
+apache-maven-*
+BuildData/
+BuildTools-out/
+Bukkit/
+CraftBukkit/
+Spigot/
+work/
+BuildTools.jar
+BuildTools.log.txt
+
+# oter
+run/
