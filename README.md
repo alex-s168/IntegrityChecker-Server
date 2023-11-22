@@ -1,4 +1,5 @@
-# IntegrityChecker Server (Paper)
+# IntegrityChecker Server Plugin (Paper)
+For https://github.com/SuperCraftAlex/IntegrityChecker-Client
 
 ## Building
 To build the plugin, run `gradlew remap` in the root directory of the project.
