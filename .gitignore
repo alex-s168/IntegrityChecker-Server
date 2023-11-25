@@ -12,6 +12,7 @@ Spigot/
 work/
 BuildTools.jar
 BuildTools.log.txt
+PortableGit*
 
 # oter
 run/
